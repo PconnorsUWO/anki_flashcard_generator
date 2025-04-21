@@ -28,8 +28,8 @@ This project streamlines the process of turning your lecture notes, textbooks, o
 
 ### Example Flashcards
 
-![Flashcard Example 1](PLACEHOLDER_FOR_FLASHCARD_IMAGE_1)
-![Flashcard Example 2](PLACEHOLDER_FOR_FLASHCARD_IMAGE_2)
+![Flashcard Example 1](Assets/wo_answer.png)
+![Flashcard Example 2](Assets/with_answer.png)
 
 ---
 
