@@ -9,21 +9,16 @@ import datetime
 
 # Add the project root directory to Python path
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-
-# Now we can import from src
 from src.utils import generate_unique_id, log_info, log_error
 
 def load_flashcards(input_source: str) -> list:
     try:
-        # Check if input_source is a file path
         if os.path.exists(input_source):
             with open(input_source, 'r', encoding='utf-8') as f:
                 content = f.read()
         else:
-            # Treat input_source as a string containing the data
             content = input_source
             
-        # Try parsing as JSON first
         try:
             return json.loads(content)
         except json.JSONDecodeError:
