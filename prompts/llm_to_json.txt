@@ -1,0 +1,23 @@
+
+I have a large amount of well-formatted text for a machine learning course. Please parse all of the context provided and create flashcards that capture every relevant detail (do not omit any key information unless it is merely filler). Each flashcard must be formatted as a Python dictionary in plain text, following this exact structure:
+
+```
+{
+    'question': """<b>Your question text here:</b><br><ul>
+    <li>Option A...</li>
+    <li>Option B...</li>
+    <li>Option C...</li>
+    <li>Option D...</li>
+    <li>Option E...</li>
+</ul>""",
+    'answer': "<b>Answer:</b> [Correct Option]"
+}
+```
+Ensure that:
+1. Every flashcard is enclosed in curly braces `{}` and flashcards are comma-separated.
+2. The 'question' field uses HTML formatting (as shown) to present the question and options.
+3. The 'answer' field clearly states the correct answer, also with HTML formatting.
+4. The output is returned as plain text.
+5. All relevant content from the input text is used to create comprehensive flashcards on the machine learning material.
+
+Generate the flashcards accordingly.

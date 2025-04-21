@@ -1,0 +1,120 @@
+[{
+    "question": """<b>Which of the following best describes Supervised Learning?</b><br><ul>
+    <li>A... Models are trained using data without predefined output variables.</li>
+    <li>B... The goal is to find hidden patterns and relationships in data without explicit guidance.</li>
+    <li>C... Models are trained using data where each piece has a corresponding output or target variable.</li>
+    <li>D... The primary technique involves reducing the number of features in the dataset.</li>
+    <li>E... It is primarily used for grouping similar data points together.</li>
+</ul>""",
+    "answer": "<b>Answer:</b> C"
+},
+{
+    "question": """<b>In Supervised Learning, what is meant by "labeled data"?</b><br><ul>
+    <li>A... Data that has been categorized by human experts for quality control.</li>
+    <li>B... Data that contains metadata tags indicating its source.</li>
+    <li>C... Data where each input observation has a corresponding known output or target variable.</li>
+    <li>D... Data that is used for testing the model's performance after training.</li>
+    <li>E... Data that has been clustered into distinct groups.</li>
+</ul>""",
+    "answer": "<b>Answer:</b> C"
+},
+{
+    "question": """<b>What is the primary goal of Supervised Learning?</b><br><ul>
+    <li>A... To reduce the dimensionality of a dataset.</li>
+    <li>B... To group similar data points into clusters.</li>
+    <li>C... To discover hidden relationships between variables.</li>
+    <li>D... To predict an output (label or value) for new, unseen data based on learned patterns.</li>
+    <li>E... To understand the underlying structure of unlabeled data.</li>
+</ul>""",
+    "answer": "<b>Answer:</b> D"
+},
+{
+    "question": """<b>Which of the following algorithms are commonly associated with Supervised Learning?</b><br><ul>
+    <li>A... K-means, PCA, Association Rules</li>
+    <li>B... Linear Regression, Decision Trees, SVM, Neural Networks</li>
+    <li>C... Hierarchical Clustering, PCA, K-means</li>
+    <li>D... Association Rules, Linear Regression, K-means</li>
+    <li>E... SVM, PCA, Association Rules</li>
+</ul>""",
+    "answer": "<b>Answer:</b> B"
+},
+{
+    "question": """<b>Which of the following best describes Unsupervised Learning?</b><br><ul>
+    <li>A... Models are trained using data where each piece has a corresponding output variable.</li>
+    <li>B... The goal is typically to predict a specific output for new data.</li>
+    <li>C... Models are trained using data that does not have predefined output variables or labels.</li>
+    <li>D... It relies heavily on explicit guidance from known outputs during training.</li>
+    <li>E... Common algorithms include Linear Regression and Decision Trees.</li>
+</ul>""",
+    "answer": "<b>Answer:</b> C"
+},
+{
+    "question": """<b>In Unsupervised Learning, what is characteristic of the training data?</b><br><ul>
+    <li>A... It is always perfectly balanced across different classes.</li>
+    <li>B... It includes predefined output variables or labels.</li>
+    <li>C... It is used to map inputs to known outputs.</li>
+    <li>D... It does not have predefined output variables or labels associated with it.</li>
+    <li>E... It must be numerical in format.</li>
+</ul>""",
+    "answer": "<b>Answer:</b> D"
+},
+{
+    "question": """<b>What is the primary goal of Unsupervised Learning?</b><br><ul>
+    <li>A... To predict a specific label or value for new data.</li>
+    <li>B... To find hidden patterns, structures, or relationships within the data itself.</li>
+    <li>C... To explicitly map input features to known output variables.</li>
+    <li>D... To build a model that can be easily interpreted by humans.</li>
+    <li>E... To classify data into predefined categories.</li>
+</ul>""",
+    "answer": "<b>Answer:</b> B"
+},
+{
+    "question": """<b>Which Unsupervised Learning technique is used for grouping similar data points together into clusters?</b><br><ul>
+    <li>A... Dimensionality Reduction</li>
+    <li>B... Regression</li>
+    <li>C... Classification</li>
+    <li>D... Association Rule Learning</li>
+    <li>E... Clustering</li>
+</ul>""",
+    "answer": "<b>Answer:</b> E"
+},
+{
+    "question": """<b>K-means and hierarchical clustering are examples of which type of Unsupervised Learning technique?</b><br><ul>
+    <li>A... Dimensionality Reduction</li>
+    <li>B... Association Rule Learning</li>
+    <li>C... Clustering</li>
+    <li>D... Regression</li>
+    <li>E... Classification</li>
+</ul>""",
+    "answer": "<b>Answer:</b> C"
+},
+{
+    "question": """<b>Which Unsupervised Learning technique focuses on reducing the number of features in a dataset while retaining important information?</b><br><ul>
+    <li>A... Clustering</li>
+    <li>B... Classification</li>
+    <li>C... Regression</li>
+    <li>D... Dimensionality Reduction</li>
+    <li>E... Association Rule Learning</li>
+</ul>""",
+    "answer": "<b>Answer:</b> D"
+},
+{
+    "question": """<b>Principal Component Analysis (PCA) is an example of which type of Unsupervised Learning technique?</b><br><ul>
+    <li>A... Clustering</li>
+    <li>B... Classification</li>
+    <li>C... Dimensionality Reduction</li>
+    <li>D... Regression</li>
+    <li>E... Association Rule Learning</li>
+</ul>""",
+    "answer": "<b>Answer:</b> C"
+},
+{
+    "question": """<b>Which Unsupervised Learning technique is used for discovering relationships between variables in large datasets, such as items frequently bought together?</b><br><ul>
+    <li>A... Clustering</li>
+    <li>B... Dimensionality Reduction</li>
+    <li>C... Classification</li>
+    <li>D... Association Rule Learning</li>
+    <li>E... Regression</li>
+</ul>""",
+    "answer": "<b>Answer:</b> D"
+}]

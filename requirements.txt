@@ -1,0 +1,12 @@
+random
+ast
+genanki
+json
+logging
+re
+openai
+dotenv
+flask
+google
+PIL
+io

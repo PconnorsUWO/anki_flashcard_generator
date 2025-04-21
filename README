@@ -1,0 +1,23 @@
+# Automated Flashcard Generator
+
+This project automates the conversion of educational text into flashcards for Anki decks using LLM-powered text processing.
+
+## Workflow
+
+1. **Text Preprocessing:**  
+   The text is formatted for optimal LLM comprehension.
+2. **Flashcard Generation:**  
+   The formatted text is processed with LLM prompts to generate flashcards in JSON.
+3. **Anki Deck Creation:**  
+   The JSON flashcards are converted into an Anki deck using `genanki`.
+
+## Directory Structure
+
+- **src/**: Python source files.
+- **prompts/**: Contains LLM prompt templates.
+- **data/**: Contains input, processed text, and output files.
+- **tests/**: Unit tests.
+
+## How to Run
+
+1. Preprocess text:
