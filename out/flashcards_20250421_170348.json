@@ -1,0 +1,412 @@
+[
+{
+    "question": """<b>Which of the following topics is covered in the lecture this week, according to the outline?</b><br><ul>
+    <li>Option A: Support Vector Machines</li>
+    <li>Option B: Neural Networks</li>
+    <li>Option C: Boosting</li>
+    <li>Option D: Clustering</li>
+    <li>Option E: Principal Component Analysis</li>
+</ul>""",
+    "answer": "<b>Answer:</b> Option C"
+},
+{
+    "question": """<b>What is a core idea behind using constant functions to approximate a function in the context of regression, as discussed for decision trees?</b><br><ul>
+    <li>Option A: To ensure the approximation is smooth and continuous.</li>
+    <li>Option B: To simplify the approximation by using piecewise constant values.</li>
+    <li>Option C: To guarantee a globally optimal solution.</li>
+    <li>Option D: To use a parametric model for the approximation.</li>
+    <li>Option E: To directly approximate with linear functions.</li>
+</ul>""",
+    "answer": "<b>Answer:</b> Option B"
+},
+{
+    "question": """<b>How do decision trees recursively split the feature space in the context of regression?</b><br><ul>
+    <li>Option A: By creating arbitrary polygonal regions.</li>
+    <li>Option B: By recursively splitting into hyper-rectangles.</li>
+    <li>Option C: By fitting complex non-linear boundaries at each step.</li>
+    <li>Option D: By randomly selecting splitting criteria without optimization.</li>
+    <li>Option E: By fitting a global linear model first.</li>
+</ul>""",
+    "answer": "<b>Answer:</b> Option B"
+},
+{
+    "question": """<b>What strategy is used when deciding on the splits at each step in the decision tree algorithm?</b><br><ul>
+    <li>Option A: Optimal global optimization across all possible splits.</li>
+    <li>Option B: Random selection of splits.</li>
+    <li>Option C: A greedy approach that maximizes the gain or minimizes loss at the current step.</li>
+    <li>Option D: Predefined fixed splits based on feature quantiles.</li>
+    <li>Option E: Using gradient descent to find the split point.</li>
+</ul>""",
+    "answer": "<b>Answer:</b> Option C"
+},
+{
+    "question": """<b>Which of the following is a criterion for terminating the recursive splitting process when growing a decision tree?</b><br><ul>
+    <li>Option A: The model complexity exceeds a predefined threshold.</li>
+    <li>Option B: The resulting nodes have more than a maximum number of observations.</li>
+    <li>Option C: A predefined maximum tree depth has been reached.</li>
+    <li>Option D: The gain in accuracy from splitting falls below a fixed negative value.</li>
+    <li>Option E: All features have been used for splitting at least once.</li>
+</ul>""",
+    "answer": "<b>Answer:</b> Option C"
+},
+{
+    "question": """<b>In a decision tree structure visualization, what are the final regions where predictions are made called?</b><br><ul>
+    <li>Option A: Root nodes</li>
+    <li>Option B: Decision nodes</li>
+    <li>Option C: Branches</li>
+    <li>Option D: Leaves (terminal nodes)</li>
+    <li>Option E: Splitting points</li>
+</ul>""",
+    "answer": "<b>Answer:</b> Option D"
+},
+{
+    "question": """<b>What does it mean for a decision tree to be a "high variance" model?</b><br><ul>
+    <li>Option A: The model is computationally very expensive to train.</li>
+    <li>Option B: The model's predictions are very sensitive to small changes in the training data.</li>
+    <li>Option C: The model can only capture linear relationships with high variability.</li>
+    <li>Option D: The model always predicts values with a large range.</li>
+    <li>Option E: The model has inherently high bias.</li>
+</ul>""",
+    "answer": "<b>Answer:</b> Option B"
+},
+{
+    "question": """<b>Which characteristic of decision trees makes them an "unstable" model?</b><br><ul>
+    <li>Option A: Their non-parametric nature.</li>
+    <li>Option B: The potential for errors in early splits to significantly impact subsequent predictions.</li>
+    <li>Option C: Their ability to handle categorical variables.</li>
+    <li>Option D: Their invariance to feature scaling.</li>
+    <li>Option E: The use of constant functions for prediction in leaf nodes.</li>
+</ul>""",
+    "answer": "<b>Answer:</b> Option B"
+},
+{
+    "question": """<b>Which of the following is listed as a PRO (advantage) of using decision trees?</b><br><ul>
+    <li>Option A: They inherently provide smooth prediction surfaces.</li>
+    <li>Option B: They are guaranteed not to overfit the training data.</li>
+    <li>Option C: They are easily interpretable (white box models).</li>
+    <li>Option D: They have low variance compared to linear models.</li>
+    <li>Option E: They automatically handle missing values without imputation.</li>
+</ul>""",
+    "answer": "<b>Answer:</b> Option C"
+},
+{
+    "question": """<b>Which of the following is listed as a CON (disadvantage) of using decision trees?</b><br><ul>
+    <li>Option A: They require feature scaling.</li>
+    <li>Option B: They are insensitive to outliers.</li>
+    <li>Option C: They can fit the noise (overfit) when grown too deep.</li>
+    <li>Option D: They cannot handle categorical predictors naturally.</li>
+    <li>Option E: They are computationally expensive to train compared to linear models.</li>
+</ul>""",
+    "answer": "<b>Answer:</b> Option C"
+},
+{
+    "question": """<b>Which of the following methods is used to reduce the variance of decision trees?</b><br><ul>
+    <li>Option A: Ridge Regression</li>
+    <li>Option B: Principal Component Analysis</li>
+    <li>Option C: Bagging</li>
+    <li>Option D: Support Vector Machines</li>
+    <li>Option E: K-Means Clustering</li>
+</ul>""",
+    "answer": "<b>Answer:</b> Option C"
+},
+{
+    "question": """<b>What does the term "Bootstrap" refer to in the context of Bagging?</b><br><ul>
+    <li>Option A: Training the model sequentially on subsets of features.</li>
+    <li>Option B: Drawing samples from the original dataset *without* replacement.</li>
+    <li>Option C: Drawing samples from the original dataset *with* replacement.</li>
+    <li>Option D: Using a small learning rate to update model parameters.</li>
+    <li>Option E: Combining weak learners with weights based on their performance.</li>
+</ul>""",
+    "answer": "<b>Answer:</b> Option C"
+},
+{
+    "question": """<b>In Bagging for regression, how are the predictions from the individual trees combined?</b><br><ul>
+    <li>Option A: By selecting the prediction of the best-performing tree.</li>
+    <li>Option B: By averaging the predictions of all trees.</li>
+    <li>Option C: By taking a majority vote among the tree predictions.</li>
+    <li>Option D: By summing the predictions with weights based on tree depth.</li>
+    <li>Option E: By using a separate model to combine the tree predictions.</li>
+</ul>""",
+    "answer": "<b>Answer:</b> Option B"
+},
+{
+    "question": """<b>The reduction in variance achieved by Bagging relies on which statistical principle?</b><br><ul>
+    <li>Option A: The law of large numbers.</li>
+    <li>Option B: The central limit theorem.</li>
+    <li>Option C: Averaging independent or weakly correlated random variables reduces variance.</li>
+    <li>Option D: The concept of regularization.</li>
+    <li>Option E: The bias-variance tradeoff is eliminated.</li>
+</ul>""",
+    "answer": "<b>Answer:</b> Option C"
+},
+{
+    "question": """<b>For classification tasks, how does Bagging typically combine the predictions of individual trees?</b><br><ul>
+    <li>Option A: By averaging the probability outputs of each tree.</li>
+    <li>Option B: By taking a majority vote among the tree predictions for the class label.</li>
+    <li>Option C: By fitting a logistic regression on the tree outputs.</li>
+    <li>Option D: By selecting the class predicted by the tree with the lowest training error.</li>
+    <li>Option E: By summing the predicted class labels.</li>
+</ul>""",
+    "answer": "<b>Answer:</b> Option B"
+},
+{
+    "question": """<b>What is a major drawback of Bagging compared to a single decision tree?</b><br><ul>
+    <li>Option A: It increases the model's variance.</li>
+    <li>Option B: It cannot handle categorical features.</li>
+    <li>Option C: Interpretation of the model is lost.</li>
+    <li>Option D: It requires significant feature engineering.</li>
+    <li>Option E: It is slower to make predictions.</li>
+</ul>""",
+    "answer": "<b>Answer:</b> Option C"
+},
+{
+    "question": """<b>What problem does Random Forest primarily aim to address that exists in standard Bagging?</b><br><ul>
+    <li>Option A: High bias of individual trees.</li>
+    <li>Option B: The computational cost of growing deep trees.</li>
+    <li>Option C: The correlation between the individual trees in the ensemble.</li>
+    <li>Option D: The inability to handle missing values.</li>
+    <li>Option E: The need for feature scaling.</li>
+</ul>""",
+    "answer": "<b>Answer:</b> Option C"
+},
+{
+    "question": """<b>What is the key difference between Random Forests and Bagging?</b><br><ul>
+    <li>Option A: Random Forests fit trees sequentially, while Bagging fits them in parallel.</li>
+    <li>Option B: Random Forests use a learning rate, while Bagging does not.</li>
+    <li>Option C: Random Forests train trees on residual errors, while Bagging uses original data.</li>
+    <li>Option D: At each split, Random Forests consider only a random subset of available features.</li>
+    <li>Option E: Random Forests only use shallow trees, while Bagging uses deep trees.</li>
+</ul>""",
+    "answer": "<b>Answer:</b> Option D"
+},
+{
+    "question": """<b>How does the random subsetting of features at each split help Random Forests improve upon Bagging?</b><br><ul>
+    <li>Option A: It speeds up the tree growing process.</li>
+    <li>Option B: It ensures that less important features are always included in splits.</li>
+    <li>Option C: It reduces the correlation between the individual trees in the ensemble.</li>
+    <li>Option D: It increases the bias of the individual trees.</li>
+    <li>Option E: It makes the model more interpretable.</li>
+</ul>""",
+    "answer": "<b>Answer:</b> Option C"
+},
+{
+    "question": """<b>In Random Forests, how is feature importance typically measured?</b><br><ul>
+    <li>Option A: By the depth of the first split made by each feature across all trees.</li>
+    <li>Option B: By summing the total reduction in loss (or Gini impurity) achieved by splits involving that feature across all trees.</li>
+    <li>Option C: By the number of times a feature is randomly selected for splitting consideration.</li>
+    <li>Option D: By the correlation coefficient between the feature and the target variable.</li>
+    <li>Option E: By the mean prediction value associated with different feature values.</li>
+</ul>""",
+    "answer": "<b>Answer:</b> Option B"
+},
+{
+    "question": """<b>What is Out-of-Bag (OOB) error in the context of Random Forests?</b><br><ul>
+    <li>Option A: The error calculated on a separate test set.</li>
+    <li>Option B: The average error of trees trained on data points that were not included in their respective bootstrap samples.</li>
+    <li>Option C: The error calculated on the original training set before bootstrapping.</li>
+    <li>Option D: The error of the single best tree in the ensemble.</li>
+    <li>Option E: The error resulting from trees that failed to converge.</li>
+</ul>""",
+    "answer": "<b>Answer:</b> Option B"
+},
+{
+    "question": """<b>What is a key benefit of using the Out-of-Bag (OOB) error estimate in Random Forests?</b><br><ul>
+    <li>Option A: It guarantees lower variance than k-fold cross-validation.</li>
+    <li>Option B: It is computationally faster to calculate than the training error.</li>
+    <li>Option C: It provides an integrated validation estimate similar to cross-validation while the model is training.</li>
+    <li>Option D: It eliminates the need for any external test or validation set.</li>
+    <li>Option E: It specifically measures the model's bias.</li>
+</ul>""",
+    "answer": "<b>Answer:</b> Option C"
+},
+{
+    "question": """<b>Boosting methods like Gradient Boosting build the ensemble model in what manner?</b><br><ul>
+    <li>Option A: By training all base learners independently and averaging their results.</li>
+    <li>Option B: By training base learners sequentially, where each new learner tries to improve upon the previous ensemble's errors.</li>
+    <li>Option C: By randomly selecting subsets of data and features for each base learner.</li>
+    <li>Option D: By selecting the single best base learner after trying many.</li>
+    <li>Option E: By pruning a single large tree.</li>
+</ul>""",
+    "answer": "<b>Answer:</b> Option B"
+},
+{
+    "question": """<b>What is typically used as a "weak learner" in Boosting algorithms like Gradient Boosting?</b><br><ul>
+    <li>Option A: A complex neural network.</li>
+    <li>Option B: A large, deep decision tree.</li>
+    <li>Option C: A linear regression model.</li>
+    <li>Option D: A simple model that performs slightly better than random chance, such as a decision stump (a tree with one split).</li>
+    <li>Option E: A k-Nearest Neighbors model.</li>
+</ul>""",
+    "answer": "<b>Answer:</b> Option D"
+},
+{
+    "question": """<b>Boosting methods fit an additive model. What typically serves as the "basis functions" in this additive model?</b><br><ul>
+    <li>Option A: Polynomial terms of the input features.</li>
+    <li>Option B: The weak learners (e.g., trees) fit at each step.</li>
+    <li>Option C: The original input features themselves.</li>
+    <li>Option D: Principal components derived from the input features.</li>
+    <li>Option E: Sine and cosine functions.</li>
+</ul>""",
+    "answer": "<b>Answer:</b> Option B"
+},
+{
+    "question": """<b>What strategy does Forward Stagewise Additive Modelling use to fit the additive model in Boosting?</b><br><ul>
+    <li>Option A: Minimizing the loss simultaneously for all basis functions.</li>
+    <li>Option B: Randomly adding new basis functions until the loss is zero.</li>
+    <li>Option C: Sequentially adding new basis functions that maximally reduce the loss, without adjusting previously fit functions.</li>
+    <li>Option D: Using k-means clustering to determine which basis functions to add.</li>
+    <li>Option E: Fitting a single complex basis function that explains all variance.</li>
+</ul>""",
+    "answer": "<b>Answer:</b> Option C"
+},
+{
+    "question": """<b>In Gradient Boosting, what does the algorithm typically fit the weak learner (e.g., a tree) to predict at each step?</b><br><ul>
+    <li>Option A: The original target variable values (y).</li>
+    <li>Option B: Random noise to regularize the model.</li>
+    <li>Option C: The positive values of the gradient of the loss function.</li>
+    <li>Option D: The negative gradient values of the loss function with respect to the current model's predictions.</li>
+    <li>Option E: The feature importance scores.</li>
+</ul>""",
+    "answer": "<b>Answer:</b> Option D"
+},
+{
+    "question": """<b>For the specific case of using Squared Error Loss (MSE) in Gradient Boosting, fitting the weak learner to the negative gradient is equivalent to fitting it to what?</b><br><ul>
+    <li>Option A: The original target variable values.</li>
+    <li>Option B: The residuals (y - current prediction).</li>
+    <li>Option C: The absolute errors.</li>
+    <li>Option D: The log-likelihood.</li>
+    <li>Option E: The standard deviation of the errors.</li>
+</ul>""",
+    "answer": "<b>Answer:</b> Option B"
+},
+{
+    "question": """<b>According to the comparison, which ensemble method is generally considered easier to tune?</b><br><ul>
+    <li>Option A: AdaBoost</li>
+    <li>Option B: Gradient Boosting (like XGBoost)</li>
+    <li>Option C: Random Forests</li>
+    <li>Option D: Simple Bagging</li>
+    <li>Option E: Decision Stumps</li>
+</ul>""",
+    "answer": "<b>Answer:</b> Option C"
+},
+{
+    "question": """<b>Which ensemble method is noted as often being more robust and performing better with smaller sample sizes according to the comparison?</b><br><ul>
+    <li>Option A: Decision Trees</li>
+    <li>Option B: Simple Bagging</li>
+    <li>Option C: Random Forests</li>
+    <li>Option D: Gradient Boosting (like XGBoost)</li>
+    <li>Option E: Linear Regression</li>
+</ul>""",
+    "answer": "<b>Answer:</b> Option D"
+},
+{
+    "question": """<b>Why are Random Forests generally more efficient to train than standard Gradient Boosting implementations (excluding specialized libraries like XGBoost/LightGBM)?</b><br><ul>
+    <li>Option A: Random Forests use simpler base learners.</li>
+    <li>Option B: Random Forest tree growing is easily parallelized.</li>
+    <li>Option C: Random Forests require fewer trees in the ensemble.</li>
+    <li>Option D: Random Forests train trees sequentially, which is faster.</li>
+    <li>Option E: Random Forests do not require calculating gradients.</li>
+</ul>""",
+    "answer": "<b>Answer:</b> Option B"
+},
+{
+    "question": """<b>What is the definition of a "White Box Model" in the context of model explainability?</b><br><ul>
+    <li>Option A: A model that is trained using only white noise features.</li>
+    <li>Option B: A model whose internal workings and the reasons for predictions are easily transparent and understandable from its structure.</li>
+    <li>Option C: A model that performs equally well across all feature distributions.</li>
+    <li>Option D: A model that can only be explained by experts.</li>
+    <li>Option E: A model that outputs probabilities rather than class labels.</li>
+</ul>""",
+    "answer": "<b>Answer:</b> Option B"
+},
+{
+    "question": """<b>Which of the following is considered a "Black Box Model"?</b><br><ul>
+    <li>Option A: Simple Linear Regression</li>
+    <li>Option B: A single Decision Tree</li>
+    <li>Option C: A complex Neural Network</li>
+    <li>Option D: A simple Generalized Linear Model (GLM)</li>
+    <li>Option E: A decision stump</li>
+</ul>""",
+    "answer": "<b>Answer:</b> Option C"
+},
+{
+    "question": """<b>What is the limitation of standard Variable Importance Plots for tree-based ensembles?</b><br><ul>
+    <li>Option A: They can only be calculated for regression models.</li>
+    <li>Option B: They only provide a global measure of a feature's impact and do not explain individual predictions.</li>
+    <li>Option C: They require the model to be perfectly linear.</li>
+    <li>Option D: They cannot be calculated for ensembles, only single trees.</li>
+    <li>Option E: They are computationally infeasible for large datasets.</li>
+</ul>""",
+    "answer": "<b>Answer:</b> Option B"
+},
+{
+    "question": """<b>From which field does the concept of Shapley Values originate?</b><br><ul>
+    <li>Option A: Information Theory</li>
+    <li>Option B: Control Theory</li>
+    <li>Option C: Game Theory</li>
+    <li>Option D: Signal Processing</li>
+    <li>Option E: Thermodynamics</li>
+</ul>""",
+    "answer": "<b>Answer:</b> Option C"
+},
+{
+    "question": """<b>In the context of ML explainability, what does the Shapley value for a feature conceptually represent?</b><br><ul>
+    <li>Option A: The standard deviation of the feature's values.</li>
+    <li>Option B: The maximum possible prediction value influenced by that feature.</li>
+    <li>Option C: The average marginal contribution of that feature across all possible coalitions (subsets) of features.</li>
+    <li>Option D: The correlation between the feature and the target variable.</li>
+    <li>Option E: The number of times the feature is used in a model.</li>
+</ul>""",
+    "answer": "<b>Answer:</b> Option C"
+},
+{
+    "question": """<b>What is the primary computational challenge with calculating exact Shapley values?</b><br><ul>
+    <li>Option A: It requires training the model multiple times.</li>
+    <li>Option B: It involves averaging over a number of feature subsets that grows exponentially with the number of features.</li>
+    <li>Option C: It requires matrix inversion.</li>
+    <li>Option D: It is only applicable to linear models.</li>
+    <li>Option E: It needs a separate validation set.</li>
+</ul>""",
+    "answer": "<b>Answer:</b> Option B"
+},
+{
+    "question": """<b>How does TreeSHAP improve the computation of Shapley values specifically for tree-based models?</b><br><ul>
+    <li>Option A: By using random sampling of feature subsets only once.</li>
+    <li>Option B: By calculating Shapley values over tree cuts (paths) instead of all possible feature subsets directly.</li>
+    <li>Option C: By limiting the number of trees in the ensemble.</li>
+    <li>Option D: By only considering the most important features.</li>
+    <li>Option E: By converting the tree structure into a linear model.</li>
+</ul>""",
+    "answer": "<b>Answer:</b> Option B"
+},
+{
+    "question": """<b>Which of the following is a desirable property of Shapley Values mentioned in the context of ML explainability?</b><br><ul>
+    <li>Option A: Insensitivity to the specific model used.</li>
+    <li>Option B: Local Additivity: The sum of feature Shapley values plus a base value equals the prediction.</li>
+    <li>Option C: Efficiency: Always computable in linear time.</li>
+    <li>Option D: Interpretability: The value is always a simple integer.</li>
+    <li>Option E: Global relevance only, not specific to individual predictions.</li>
+</ul>""",
+    "answer": "<b>Answer:</b> Option B"
+},
+{
+    "question": """<b>What is the current status of TreeSHAP in the industry according to the notes?</b><br><ul>
+    <li>Option A: It is a promising new research area but not widely adopted.</li>
+    <li>Option B: It is primarily used for linear models.</li>
+    <li>Option C: It is considered the industry standard for explaining predictions from tree-based ensembles.</li>
+    <li>Option D: It has been replaced by simpler methods like permutation importance.</li>
+    <li>Option E: It is only applicable to classification problems.</li>
+</ul>""",
+    "answer": "<b>Answer:</b> Option C"
+},
+{
+    "question": """<b>According to the closing thoughts, which types of models are often the go-to for structured data problems?</b><br><ul>
+    <li>Option A: Support Vector Machines</li>
+    <li>Option B: Simple Linear Models</li>
+    <li>Option C: K-Means Clustering</li>
+    <li>Option D: Tree-based ensembles (like Random Forests and Gradient Boosting variants)</li>
+    <li>Option E: Principal Component Analysis</li>
+</ul>""",
+    "answer": "<b>Answer:</b> Option D"
+}
+]

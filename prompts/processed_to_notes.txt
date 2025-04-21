@@ -1,9 +1,0 @@
-Given the following text on [insert topic here], please generate comprehensive and detailed notes to help me fully understand and internalize the material. Ensure that your notes do the following:
-
-- **Include All Content:** We may expand further however do not leave out any content that is present in the text within the notes you provide.
-- **Clarify Fundamental Ideas:** Expand on any necessary background context or foundational concepts to ensure a deep understanding of the topic.
-- **Define Key Terms and Concepts:** Provide clear and precise definitions for important terms along with explanations of core ideas.
-- **Explain Important Processes and Methods:** Describe key concepts, processes, or algorithms with illustrative examples where applicable.
-- **Organize Information Effectively:** Structure your notes using clear headings, subheadings, and bullet points for better readability.
-- **Highlight Essential Points:** Emphasize critical ideas, especially those likely to be the focus of discussion questions or exam prompts.
-- **Concise Summaries:** Include brief summaries at the end of each section to reinforce the main takeaways.
