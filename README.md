@@ -37,11 +37,3 @@ This project streamlines the process of turning your lecture notes, textbooks, o
 - **Deck Styling:**  
   Edit the CSS in `config.py` or `src/create_anki_deck.py` to change the look of your flashcards.
 
-
-## Screenshots
-
-> Replace the placeholders below with your own screenshots.
-
-- ![Screenshot of Web UI](PLACEHOLDER_FOR_WEB_UI_IMAGE)
-- ![Screenshot of Anki Deck](PLACEHOLDER_FOR_ANKI_DECK_IMAGE)
-```
