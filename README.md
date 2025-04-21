@@ -1,12 +1,6 @@
 ## Overview
 
-This project streamlines the process of turning your lecture notes, textbooks, or PDFs into ready-to-use Anki decks. It leverages large language models (LLMs) to extract, summarize, and format educational content into flashcards, saving you hours of manual work.
-
-## Demo
-
-### Project Workflow
-
-![Project Workflow](PLACEHOLDER_FOR_WORKFLOW_IMAGE)
+This project streamlines the process of turning your lecture notes, textbooks, or PDFs into ready-to-use Anki decks. It leverages large language models (LLMs) to extract, summarize, and format educational content into flashcards, saving you hours of manual work 
 
 ### Example Flashcards
 
